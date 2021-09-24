@@ -50,7 +50,7 @@ module.exports = {
 ```
 * .babelrc.js:  
 ```js
-const getScopedName = require('./build/getScopedName'); // <============ here
+const getScopedName = require('./config/getScopedName'); // <============ here
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {

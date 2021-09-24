@@ -1,4 +1,4 @@
-// const getScopedName = require('./build/getScopedName');
+// const getScopedName = require('./config/getScopedName');
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {

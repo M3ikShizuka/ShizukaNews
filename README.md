@@ -1,5 +1,11 @@
 # ShizukaNews on Webpack-ReactJS
 
+## Environment setting up
+[Using React in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+
+## Debug setting up
+[Remote debugging with Chrome Developer Tools](https://blog.chromium.org/2011/05/remote-debugging-with-chrome-developer.html)  
+
 --------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and webpack.
