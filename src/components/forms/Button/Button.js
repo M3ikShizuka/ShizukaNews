@@ -1,5 +1,5 @@
 import React from 'react';
-import styleDefault from "./mazip.scss";
+import styleDefault from "../../../assets/scss/mazip.scss";
 
 function Button(props) {
     let customStyles = props.customStyles;

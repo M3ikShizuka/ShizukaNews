@@ -1,6 +1,6 @@
 import React from 'react';
 import './404.scss';
-import nothingImg from '../assets/img/Yuru-Yuri Kyouko Toshinou its-fucking-nothing.svg';
+import nothingImg from 'assets/img/Yuru-Yuri Kyouko Toshinou its-fucking-nothing.svg';
 
 function NotFound() {
   return (

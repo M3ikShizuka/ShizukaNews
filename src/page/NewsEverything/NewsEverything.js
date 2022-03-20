@@ -1,11 +1,11 @@
 import React from 'react';
-import { SHA1 } from '../common/sha1.js';
-import { getEverything } from './NewsAPI.js';
-import FilterPanelEverything from './FilterPanelEverything.js';
-import ArticleBlockItem from './ArticleBlockItem.js';
+import { SHA1 } from '../../utils/sha1.js';
+import { getEverything } from 'services/NewsAPI/NewsAPI.js';
+import FilterPanelEverything from '../../components/forms/FilterPanel/FilterPanelEverything.js';
+import ArticleBlockItem from '../../components/ArticleBlockItem/ArticleBlockItem.js';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import MessagesBlocks from "./InfoMessagesBlocks";
-import './ArticleBlockItem.scss';
+import MessagesBlocks from "../../components/InfoMessagesBlocks.js";
+import '../../components/ArticleBlockItem/ArticleBlockItem.scss';
 import './NewsEverything.scss';
 
 class NewsEverything extends React.Component {

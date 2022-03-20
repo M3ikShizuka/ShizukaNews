@@ -1,9 +1,9 @@
 import React from "react";
 import ApngComponent from 'react-apng';
 import LoadingBlock from './LoadingBlock';
-import imageLoading from '../assets/img/rem-loading.png';
-import imageNothing from '../assets/img/shinjionchair.png';
-import imageNoMore from '../assets/img/kyouko-its-fucking-nothing.png';
+import imageLoading from 'assets/img/rem-loading.png';
+import imageNothing from 'assets/img/shinjionchair.png';
+import imageNoMore from 'assets/img/kyouko-its-fucking-nothing.png';
 
 const MessagesBlocks = {
     messageLoading: () => {

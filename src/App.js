@@ -5,15 +5,13 @@ import {
     Route,
     Redirect
 } from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
-import ScrollToTopOnMount from "./ScrollToTopOnMount";
-import Header from './Header.js';
-// import Main from './Main.js';
-import NewsHeadlines from './NewsHeadlines.js';
-import NewsEverything from './NewsEverything.js';
-import NotFound from './NotFound.js';
-import Popup from "./Popup";
-import './main.scss';
+import ScrollToTop from "./components/Scroll/ScrollToTop";
+import Header from './components/Header/Header.js';
+import NewsHeadlines from './page/NewsHeadlines/NewsHeadlines.js';
+import NewsEverything from './page/NewsEverything/NewsEverything.js';
+import NotFound from './components/NotFound/NotFound.js';
+import Popup from "./components/Popup";
+import './assets/scss/main.scss';
 
 class App extends React.Component {
     constructor(props) {

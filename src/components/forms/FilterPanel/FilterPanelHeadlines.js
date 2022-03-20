@@ -1,6 +1,6 @@
 import React from 'react';
-import Dropdown from './Dropdown';
-import Button from './Button.js';
+import Dropdown from 'components/forms/Dropdown';
+import Button from 'components/forms/Button/Button.js';
 import "./FilterPanel.scss";
 import styleElements from "./FilterPanelElements.scss";
 

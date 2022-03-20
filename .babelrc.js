@@ -1,5 +1,6 @@
 // const getScopedName = require('./config/getScopedName');
-const isDev = process.env.NODE_ENV === 'development';
+// const isDev = process.env.NODE_ENV === 'development';
+const isDev = g_envSettings.isDev;
 
 module.exports = {
     "presets": [

@@ -1,8 +1,8 @@
 import React from 'react';
 import Moment from 'react-moment';
-import LoadingBlock from "./LoadingBlock";
+import LoadingBlock from "../LoadingBlock";
 import './ArticleBlockItem.scss';
-import imageLoading from '../assets/img/rem-loading.png';
+import imageLoading from 'assets/img/rem-loading.png';
 
 function ArticleBlockItem(props) {
 	let article = props.article;

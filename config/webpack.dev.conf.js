@@ -1,4 +1,6 @@
-process.env.NODE_ENV = 'development';
+if (undefined === process.env.NODE_ENV) {
+    process.env.NODE_ENV = 'development';
+}
 
 const webpack = require('webpack')
 const merge = require('webpack-merge')

@@ -1,12 +1,12 @@
 import React from 'react';
-import { SHA1 } from '../common/sha1.js';
-import { getHeadlines } from './NewsAPI.js';
-import FilterPanelHeadlines from './FilterPanelHeadlines.js';
-import ArticleBlockItem from './ArticleBlockItem.js';
+import { SHA1 } from '../../utils/sha1.js';
+import { getHeadlines } from 'services/NewsAPI/NewsAPI.js';
+import FilterPanelHeadlines from '../../components/forms/FilterPanel/FilterPanelHeadlines.js';
+import ArticleBlockItem from '../../components/ArticleBlockItem/ArticleBlockItem.js';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import countries from '../static/countries.json';
-import MessagesBlocks from "./InfoMessagesBlocks";
-import './ArticleBlockItem.scss';
+import countries from '../../static/countries.json';
+import MessagesBlocks from "../../components/InfoMessagesBlocks.js";
+import '../../components/ArticleBlockItem/ArticleBlockItem.scss';
 import './NewsHeadlines.scss';
 
 class NewsHeadlines extends React.Component {

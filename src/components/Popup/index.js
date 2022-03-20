@@ -1,7 +1,7 @@
 import React from "react";
 import "./Popup.scss";
 import titileImage from "../../assets/img/Pop epic team listen fuck you.gif";
-import Button from "../Button";
+import Button from "../forms/Button/Button";
 
 class Popup extends React.Component {
     constructor(props) {
